@@ -5,11 +5,12 @@ class Admin {
 private:
 	Admin();
 	virtual ~Admin() = 0;
+	static std::string nameAdmin, passwordAdmin;
 public:
-	bool IsAdmin(const std::string const name, const std::string const password);
+	static bool IsAdmin(const std::string const name, const std::string const password);
 
 };
 
-Admin::~Admin() {};
+
 
  

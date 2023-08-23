@@ -5,7 +5,7 @@ class Menu : public Showroom {
 public:
 	Menu();
 	~Menu();
-	int showMenu();
+	int showMenu(); // мб сделать friend
 private:
 
 };

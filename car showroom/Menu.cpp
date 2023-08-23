@@ -36,7 +36,7 @@ int Menu::showMenu()
 		std::cout << "Enter password: ";
 		std::cin >> password;
 
-
+		
 		break;
 	case 4:
 		return 0;
