@@ -25,6 +25,11 @@ bool Showroom::IsUser(const std::string const name, const std::string const pass
 	return false;
 }
 
+std::vector<std::string> Showroom::findCar(const std::string car, const bool a)
+{
+	return std::vector<std::string>();
+}
+
 void Showroom::setName(const std::string const name, const int ind) {
 	nameUser = name;
 }
@@ -36,3 +41,5 @@ void Showroom::setPassword(const std::string password) {
 std::string Showroom::getName() {
 	return nameUser;
 }
+
+
