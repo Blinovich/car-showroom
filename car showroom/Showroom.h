@@ -13,6 +13,7 @@ public:
 	bool Auth(const std::string const name, const std::string const password);
 	bool IsUser(const std::string const name, const std::string const password);
 	std::vector<std::string> findCar(const std::string car, const bool a = false) override;
+	void showUserMenu();
 
 	std::string getName();
 	
